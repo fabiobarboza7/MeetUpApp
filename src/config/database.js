@@ -4,9 +4,10 @@ module.exports = {
   username: 'postgres',
   password: 'senha',
   database: 'meetup',
+  port: 5434,
   define: {
     timestamps: true,
     underscored: true,
     underscoredAll: true,
-  }
-}
+  },
+};
